@@ -1,0 +1,86 @@
+.login {
+    min-height: 100vh;
+    background: url(/background.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login .logo {
+    max-width: 200px;
+}
+
+.login-form {
+    background: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 30px;
+    min-width: 350px;
+    position: relative;
+}
+
+/* Signup/Login Heading & Dropdown */
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-header h2 {
+    font-weight: 500;
+    margin: 0;
+}
+
+.user-type-select {
+    padding: 5px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    outline-color: #077EFF;
+}
+
+.form-input {
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline-color: #077EFF;
+    font-size: 15px;
+}
+
+.login-form button {
+    height: 35px;
+    background-color: #077EFF;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-term {
+    display: flex;
+    gap: 5px;
+    font-size: 17px;
+    color: #070505;
+}
+
+.login-toggle {
+    display: flex;
+    font-size: 17px;
+}
+
+.login-toggle span {
+    color: #077EFF;
+    cursor: pointer;
+}
+
+/* Recruiter Checkbox */
+.recruiter-check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

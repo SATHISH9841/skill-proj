@@ -1,0 +1,238 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcefff;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.account-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account-btn:hover {
+    background: #0056b3;
+}
+
+/* Tabs Section */
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-btn {
+    background: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.tab-btn.active {
+    background: #007bff;
+    color: white;
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.column {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Skill List */
+.list-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Skill Name - Aligned Properly */
+.skill-name {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+}
+
+/* Pass/Fail Icon */
+.status-icon {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.pass {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
+
+/* Take Test Button */
+.test-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.test-btn:hover {
+    background: #218838;
+}
+
+/* Delete Button - Trash Bin Icon */
+.delete-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: gray;
+    transition: color 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+    color: red;
+}
+
+/* Add Test Button */
+.add-test-btn {
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-test-btn:hover {
+    background-color: #0056b3;
+}
+
+/* ---------- POPUP MODAL CSS ---------- */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h3 {
+    margin-bottom: 15px;
+}
+
+/* Search Input Box - Aligned */
+.search-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-box {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Search Icon */
+.search-icon {
+    font-size: 18px;
+    color: #007bff;
+}
+
+/* Add & Close Buttons */
+.add-btn, .close-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+
+.add-btn:hover {
+    background: #0056b3;
+}
+
+.close-btn {
+    background: red;
+}
+
+.close-btn:hover {
+    background: darkred;
+}
